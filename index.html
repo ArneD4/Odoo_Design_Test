@@ -1,11 +1,493 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Bootstrap CSS (local) -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 </head>
+
 <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <div class="container">
+            <a href="" class="navbar-brand">
+                <img src="/images/odoo-white.svg" alt="Odoo Logo" height="32">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Apps</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a href="" class="btn">Sign in</a>
+                    <a href="" class="btn">Buy now</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="py-5" style="background: #007aff;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-white">
+                    <h1>Development <br> done right</h1>
+                    <p>Build a beautiful, modern website with flexible components built from scratch.</p>
+                    <a href="#" class="btn">Get started</a>
+                    <div class="d-flex flex-row">
+                        <p class="me-4">Trusted by</p>
+                        <div class="d-flex gap-4">
+                            <img src="/images/google-white.svg" alt="Google" height="27">
+                            <img src="/images/spotify-white.svg" alt="Spotify" height="27">
+                            <img src="/images/airbnb-white.svg" alt="Airbnb" height="27">
+                            <img src="/images/paypal-white.svg" alt="PayPal" height="27">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card shadow-lg">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <h5 class="card-title">
+                                    Manage cards
+                                </h5>
+                                <div class="btn">
+                                    Add new
+                                </div>
+                            </div>
+                            <div class="bg-dark text-white p-4 rounded-3">
+                                <div class="row-lg-12 d-flex justify-content-between">
+                                    <img src="/images/mastercard.svg" alt="Mastercard" height="27">
+                                    <span class="badge px-3 bg-success rounded">Active</span>
+                                </div>
+                                <div class="row">
+                                    <p>CARD NUMBER</p>
+                                </div>
+                                <div class="row">
+                                    <p>4358 - 7421 - 9256 - 6682</p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <p>NAME</p>
+                                        <p>John Snow</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p>EXPIRY DATE</p>
+                                        <p>11/23</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 position-relative">
+                    <video src="" poster="/images/img_01.jpg" class="position-absolute top-0 end-0 z-1 rounded"
+                        style="width: 60%; height: auto;" controls></video>
+                    <div class="card mb-10" style="width: 80%;">
+                        <div class="card-body">
+                            <h5 class="card-title">Awesome Projects</h5>
+                            <ul class="list-unstyled list-group-flush">
+                                <li>
+                                    <div class="d-flex justify-content-between">
+                                        <p>Create the new logo</p>
+                                        <p>3:50 </p>
+                                    </div>
+                                    <div class="progress-bar bg-dark rounded">
+                                        <div class="progress bg-primary" style="width: 35%;"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-between">
+                                        <p>Set up the color palette</p>
+                                        <p>4:00</p>
+                                    </div>
+                                    <div class="progress-bar bg-dark rounded">
+                                        <div class="progress bg-primary" style="width: 40%;"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-between">
+                                        <p>Wireframe and prototype</p>
+                                        <p>6:50</p>
+                                    </div>
+                                    <div class="progress-bar bg-dark rounded">
+                                        <div class="progress bg-primary" style="width: 65%;"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <span class="badge px-3 bg-dark rounded-pill">Tools</span>
+                    <h2>We build for designers and developers</h2>
+                    <p>Get components and examples, including tons of variables that will help you grow your business.
+                    </p>
+                </div>
+            </div>
+    </section>
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <span class="badge px-3 bg-success rounded-pill">Features</span>
+                    <h3>Get components and examples, including tons of variables that will help you grow your business.
+                    </h3>
+                    <ul class="list-unstyled">
+                        <li class="d-flex text-success align-items-center">
+                            <div class="check p-2 rounded me-2 bg-success text-white">v</div>
+                            <p>Perfect for modern startups</p>
+                        </li>
+                        <li class="d-flex text-success align-items-center">
+                            <div class="check p-2 rounded me-2 bg-success text-white">v</div>
+                            <p>Fully customizable and scalable</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <video src="" poster="/images/img_02.jpg" class="rounded" style="width: 100%; height: auto;"
+                        controls></video>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="/images/person_03.jpg" alt="Image" class="img-fluid rounded">
+                                    <div class="d-flex align-items-center mt-3">
+                                        <div class="icon rounded-circle p-3 bg-warning me-2">JH</div>
+                                        <p>Jimmy Hendrix</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="card mt-2">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                        <div class="icon rounded-circle p-3 bg-success me-2">v</div>
+                                        <div class="col">
+                                            <p>300+ components</p>
+                                            <small class="text-muted">Built to be customized</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <img src="/images/airbnb.svg" alt="Airbnb" height="27">
+                                    <div class="mb-2">
+                                        <span class="text-warning">
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                        </span>
+                                    </div>
+                                    <p>
+                                        4.95 out of 5 stars
+                                    </p>
+                                    <small class="text-muted">from 23 reviews</small>
+                                </div>
+                            </div>
+                            <div class="card mt-3 position-relative w-100 text-center">
+                                <div class="card-body text-center">
+                                    <img src="/images/company_01.png" alt="Company" class="img-fluid rounded-circle">
+                                    <p>Website UI Kit</p>
+                                    <div class="d-flex justify-content-center mt-3 mx-auto position-relative"
+                                        style="width: 40%; height: 40px;">
+                                        <img src="/images/person_01.jpg" alt="Person_01" height="40" class="border rounded-circle position-absolute
+                                            start-0">
+                                        <img src="/images/person_02.jpg" alt="Person_02" height="40"
+                                            class="border rounded-circle position-absolute">
+                                        <img src="/images/person_03.jpg" alt="Person_03" height="40" class="border rounded-circle position-absolute
+                                            end-0">
+                                    </div>
+                                    <hr class="hr w-50 mx-auto" />
+                                    <div class="d-flex justify-content-between text-muted"
+                                        style="width: 50%; margin: auto;">
+                                        <i class="bi bi-paperclip"></i>
+                                        <i class="bi bi-eye"></i>
+                                        <i class="bi bi-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <span class="badge px-3 bg-primary rounded-pill">Technology</span>
+                    <h2>We use the latest technologies on the market</h2>
+                    <p>Get components and examples, including tons of variables that will help you grow your business.
+                    </p>
+                    <a href="#" class="link">See case studies</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <span class="badge px-3 bg-warning rounded-pill">Easy to install</span>
+                    <h2>Download, install and run.</h2>
+                    <p>Get components and examples, including tons of variables that will help you grow your business.
+                    </p>
+                    <div class="d-flex justify-content-between gap-2">
+                        <button class="btn btn-dark app-button mb-3 d-flex flex-row align-items-center gap-2">
+
+                            <i class="bi bi-apple" height="30"></i>
+                            <div class="d-flex flex-column">
+
+                                <span>Download the app</span>
+                                <h3 class="mb-0">App Store</h3>
+
+                            </div>
+
+
+                        </button>
+                        <button class="btn btn-dark app-button mb-3 d-flex flex-row align-items-center gap-2">
+
+                            <i class="bi bi-google-play"></i>
+                            <div class="d-flex flex-column">
+
+                                <span>Download the app</span>
+                                <h3 class="mb-0">Google Store</h3>
+
+                            </div>
+
+
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <video src="" poster="/images/img_03.jpg" class="rounded" style="width: 100%; height: auto;"
+                        controls></video>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container">
+            <div class="row bg-dark text-white p-5 rounded align-items-center">
+                <div class="col-lg-10">
+                    <h2>Infinite solutions</h2>
+                    <p>Intuitive markup, powerful and lightning-fast build tools, <br>
+                        everything you need to turn your ideas into incredible products.</p>
+                </div>
+                <div class="col-lg-2">
+                    <a href="#" class="btn btn-primary bg-white text-dark">Learn more <i
+                            class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <span class="badge px-3 bg-primary rounded-pill">Awards</span>
+                    <p>Awards for design, creativity, and innovation on the Internet
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center g-4">
+                <div class="col-md-2 col-6">
+                    <div class="card text-center shadow-sm p-3">
+                        <div class="card-body">
+                            <img src="/images/airbnb.svg" alt="Airbnb" height="32">
+                            <span class="text-warning">
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                            </span>
+                            <p>4.95 out of 5 stars</p>
+                            <small class="text-muted">from 23 reviews</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-6">
+                    <div class="card text-center shadow-sm p-3">
+                        <div class="card-body">
+                            <img src="/images/amazon.svg" alt="Amazon" height="32">
+                            <small class="text-muted">They build modern-looking websites easily using Tabs.</small>
+                            <a href="#" class="link">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-6">
+                    <div class="card text-center shadow-sm p-3">
+                        <div class="card-body">
+                            <img src="/images/slack.svg" alt="Slack" height="32">
+                            <small class="text-muted">They build modern-looking websites easily using Tabs.</small>
+                            <a href="#" class="link">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-6">
+                    <div class="card text-center shadow-sm p-3">
+                        <div class="card-body">
+                            <img src="/images/spotify.svg" alt="Spotify" height="32">
+                            <span class="text-warning">
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                            </span>
+                            <p>4.95 out of 5 stars</p>
+                            <small class="text-muted">from 23 reviews</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-6">
+                    <div class="card text-center shadow-sm p-3">
+                        <div class="card-body">
+                            <img src="/images/paypal.svg" alt="PayPal" height="32">
+                            <small class="text-muted">They build modern-looking websites easily using Tabs.</small>
+                            <a href="#" class="link">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container">
+            <h3 class="text-center mb-4">Helpful answers</h3>
+            <p class="text-center mb-5">Start building fast, beautiful, and modern-looking websites in no time.</p>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Which license do I need?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    You need the commercial license for business use. For personal projects, the free
+                                    license is sufficient.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How do I get access to my database?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    You can access your database via the dashboard or API.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    How do I see previous orders?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Previous orders are listed in your account dashboard under "Order History".
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Which license do I need?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    You need the commercial license for business use. For personal projects, the free
+                                    license is sufficient.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How do I get access to my database?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    You can access your database via the dashboard or API.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    How do I see previous orders?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Previous orders are listed in your account dashboard under "Order History".
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="text-center mt-5">
+                    <a href="#" class="btn btn-primary btn-lg">Buy now</a>
+                    <a href="#" class="btn btn-link">Learn more</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
+
 </html>
