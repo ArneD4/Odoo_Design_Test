@@ -92,6 +92,27 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="d-flex">
+                                <div class="col-8">
+                                    <p class="mb-1"><strong>Starbucks</strong></p>
+                                    <small>Pending - San Fransisco, United States</small>
+                                </div>
+                                <div class="col-4 text-end">
+                                    <p>$5,50 USD</p>
+                                </div>
+                            </div>
+                            <hr class="border-dark">
+                            <div class="d-flex">
+                                <div class="col-8">
+                                    <p class="mb-1"><strong>Nike Sports</strong></p>
+                                    <small>Pending - Lisbon, Portugal</small>
+                                </div>
+                                <div class="col-4 text-end">
+                                    <p>$129,00 USD</p>
+                                </div>
+                            </div>
+                            <hr class="border-dark">
+                            <a href="#">View all ></a>
                         </div>
                     </div>
                 </div>
@@ -326,6 +347,7 @@
                     <div class="card text-center shadow-sm p-3">
                         <div class="card-body">
                             <img src="/images/airbnb.svg" alt="Airbnb" height="32">
+                            <br>
                             <span class="text-warning">
                                 <i class="bi bi-star"></i>
                                 <i class="bi bi-star"></i>
@@ -335,15 +357,16 @@
                             </span>
                             <p>4.95 out of 5 stars</p>
                             <small class="text-muted">from 23 reviews</small>
+                            <a href="#" class="link stretched-link"></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-2 col-6">
-                    <div class="card text-center shadow-sm p-3">
+                    <div class="card text-center shadow-sm p-3 hover-zoom">
                         <div class="card-body">
                             <img src="/images/amazon.svg" alt="Amazon" height="32">
                             <small class="text-muted">They build modern-looking websites easily using Tabs.</small>
-                            <a href="#" class="link">Learn more</a>
+                            <a href="#" class="link stretched-link">Learn more</a>
                         </div>
                     </div>
                 </div>
@@ -352,14 +375,15 @@
                         <div class="card-body">
                             <img src="/images/slack.svg" alt="Slack" height="32">
                             <small class="text-muted">They build modern-looking websites easily using Tabs.</small>
-                            <a href="#" class="link">Learn more</a>
+                            <a href="#" class="link stretched-link">Learn more</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-2 col-6">
                     <div class="card text-center shadow-sm p-3">
                         <div class="card-body">
-                            <img src="/images/spotify.svg" alt="Spotify" height="32">
+                            <img src="/images/spotify.svg" alt="Spotify" height="32" />
+                            <br>
                             <span class="text-warning">
                                 <i class="bi bi-star"></i>
                                 <i class="bi bi-star"></i>
@@ -369,6 +393,7 @@
                             </span>
                             <p>4.95 out of 5 stars</p>
                             <small class="text-muted">from 23 reviews</small>
+                            <a href="#" class="link stretched-link"></a>
                         </div>
                     </div>
                 </div>
@@ -377,7 +402,7 @@
                         <div class="card-body">
                             <img src="/images/paypal.svg" alt="PayPal" height="32">
                             <small class="text-muted">They build modern-looking websites easily using Tabs.</small>
-                            <a href="#" class="link">Learn more</a>
+                            <a href="#" class="link stretched-link">Learn more</a>
                         </div>
                     </div>
                 </div>
@@ -390,104 +415,191 @@
             <h3 class="text-center mb-4">Helpful answers</h3>
             <p class="text-center mb-5">Start building fast, beautiful, and modern-looking websites in no time.</p>
             <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="accordion" id="faqAccordion">
-                        <div class="accordion-item">
+                <div class="col-lg-6">
+                    <div class="accordion  accordion-flush" id="accordionExample">
+                        <div class="accordion-item mb-3">
                             <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <button class="accordion-button collapsed border rounded-3 shadow-sm" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                                    aria-controls="collapseOne">
+                                    <i class="bi bi-file-earmark me-2"></i>
                                     Which license do I need?
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                                data-bs-parent="#faqAccordion">
+                            <div id="collapseOne" class="accordion-collapse collapse border-0"
+                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    You need the commercial license for business use. For personal projects, the free
-                                    license is sufficient.
+                                    This is the first item
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        <div class="accordion-item mb-3">
                             <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <button class="accordion-button collapsed border rounded-3 shadow-sm" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    <i class="bi bi-unlock me-2"></i>
                                     How do I get access to my database?
                                 </button>
                             </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    You can access your database via the dashboard or API.
+                            <div id="collapseTwo" class="accordion-collapse collapse border-0"
+                                aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body border-0">
+                                    This is the second item
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        <div class="accordion-item mb-3">
                             <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <button class="accordion-button collapsed border rounded-3 shadow-sm" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    <i class="bi bi-folder2 me-2"></i>
                                     How do I see previous orders?
                                 </button>
                             </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                data-bs-parent="#faqAccordion">
+                            <div id="collapseThree" class="accordion-collapse collapse border-0"
+                                aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    Previous orders are listed in your account dashboard under "Order History".
-                                </div>
-                            </div>
-                        </div>
-                                                <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Which license do I need?
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                                data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    You need the commercial license for business use. For personal projects, the free
-                                    license is sufficient.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    How do I get access to my database?
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    You can access your database via the dashboard or API.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    How do I see previous orders?
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
-                                    Previous orders are listed in your account dashboard under "Order History".
+                                    This is the third item
                                 </div>
                             </div>
                         </div>
                     </div>
-                                    <div class="text-center mt-5">
+                </div>
+                <div class="col-lg-6">
+                    <div class="accordion  accordion-flush" id="accordionExample">
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed border rounded-3 shadow-sm" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                                    aria-controls="collapseOne">
+                                    <i class="bi bi-file-earmark me-2"></i>
+                                    Which license do I need?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse border-0"
+                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    This is the first item
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed border rounded-3 shadow-sm" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    <i class="bi bi-unlock me-2"></i>
+                                    How do I get access to my database?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse border-0"
+                                aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body border-0">
+                                    This is the second item
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed border rounded-3 shadow-sm" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    <i class="bi bi-folder2 me-2"></i>
+                                    How do I see previous orders?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse border-0"
+                                aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    This is the third item
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-5">
                     <a href="#" class="btn btn-primary btn-lg">Buy now</a>
                     <a href="#" class="btn btn-link">Learn more</a>
-                </div>
                 </div>
             </div>
         </div>
     </section>
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h4>Brilliant solutions for your ideas</h4>
+                    <p>Odoo attempts to bring the best development experience to designers and developers by offering
+                        the tools needed for having a quick and solid start in most web projects.</p>
+                </div>
+                <div class="col-lg-6">
+                    <a href="#" class="btn btn-light me-2"><i
+                            class="bi bi-file-break me-2 text-dark"></i>Documentation</a>
+                    <a href="#" class="btn btn-primary">Purchase now</a>
+                </div>
+            </div>
+            <hr class="border-light">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="/images/odoo-white.svg" alt="Odoo" height="32">
+                    <small class="d-block">Odoo attempts to bring the best development experience to designers and
+                        developers by offering the tools needed for having a quick and solid start in most web
+                        projects.</small>
+                    <div class="d-flex gap-5 mt-4">
+                        <a href="#" class="text-white"><i class="bi bi-dribbble"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-github"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="row d-flex justify-content-between gap-3">
+                        <div class="col-md-4">
+                            <h5>Account</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="text-white underline-0">Profile</a></li>
+                                <li><a href="#" class="text-white">Settings</a></li>
+                                <li><a href="#" class="text-white">Billing</a></li>
+                                <li><a href="#" class="text-white">Notifications</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h5>About</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="text-white underline-0">Services</a></li>
+                                <li><a href="#" class="text-white">Pricing</a></li>
+                                <li><a href="#" class="text-white">Contact</a></li>
+                                <li><a href="#" class="text-white">Careers</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h5>Account</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="text-white underline-0">Community</a></li>
+                                <li><a href="#" class="text-white">Help center</a></li>
+                                <li><a href="#" class="text-white">Support</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-light">
+            <div class="row d-flex justify-content-between">
+                <div class="d-flex w-50">
+                    © <strong class="ms-1">Odoo</strong>. All rights reserved
+                </div>
+                <div class="d-flex w-50 justify-content-end align-items-center gap-3">
+                    <a href="#" class="text-white">Terms</a>
+                    <a href="#" class="text-white">Privacy</a>
+                    <a href="#" class="text-white">Cookies</a>
+                </div>
+            </div>
+        </div>
 
+    </footer>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
