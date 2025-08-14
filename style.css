@@ -11987,6 +11987,10 @@ h2, .h2 {
   font-size: 1.8rem;
 }
 
+h3, .h3 {
+  font-size: 1.65rem;
+}
+
 .container {
   max-width: 1140px;
 }/*# sourceMappingURL=style.css.map */
