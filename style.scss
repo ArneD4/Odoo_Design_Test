@@ -2,8 +2,11 @@
 
 // Colors
 $primary: #038AFF;
+$secondary: #7A89A0;
+$light: #c6cad0;
 $dark: #161348;
 $success: #5CCAA7;
+$warning: #FDBE3D;
 
 // Border radius
 $border-radius: 0.75rem;
@@ -22,6 +25,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-size: 1.8rem;
 }
 
 .container {
