@@ -3,14 +3,14 @@
 // Colors
 $primary: #038AFF;
 $secondary: #7A89A0;
-$light: #c6cad0;
+// $light: #c6cad0;
 $dark: #161348;
 $success: #5CCAA7;
 $warning: #FDBE3D;
 
 // Border radius
 $border-radius: 0.75rem;
-$border-radius-sm: 0.3rem;
+$rounded-sm: 0.5rem;
 $border-radius-lg: 1rem;
 
 @import "node_modules/bootstrap/scss/bootstrap";
@@ -37,4 +37,13 @@ h3 {
 
 .container {
     max-width: 1140px;
+}
+
+.award {
+  transition: 0.6s ease-in;
+}
+
+.award:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35)!important;
+  transition: 0.6s ease-out;
 }

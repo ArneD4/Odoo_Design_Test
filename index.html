@@ -13,12 +13,12 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-primary align-items-center p-0">
+    <nav class="navbar navbar-dark navbar-expand-lg bg-primary align-items-center p-0">
         <div class="container d-flex justify-content-between py-4 border-bottom border-white border-opacity-50">
             <a href="" class="navbar-brand">
                 <img src="/images/odoo-white.svg" alt="Odoo Logo" height="32">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse d-lg-flex justify-content-between" id="navbarNav">
@@ -123,8 +123,8 @@
             </div>
         </div>
     </section>
-    <section>
-        <img src="/images/bottom_blue.svg" alt="bottom_blue">
+    <section class="d-flex">
+        <img src="/images/bottom_blue.svg" alt="bottom_blue" class="w-100">
     </section>
     <section class="py-5 px-2">
         <div class="container">
@@ -240,7 +240,7 @@
                         </div>
                         <div class="col-6">
                             <div class="card shadow-sm">
-                                <div class="card-body text-center p-5">
+                                <div class="card-body text-center py-5 px-1">
                                     <img src="/images/airbnb.svg" alt="Airbnb" class="mb-4" height="27">
                                     <div class="mb-4">
                                         <span class="text-warning">
@@ -248,7 +248,7 @@
                                             <i class="bi bi-star"></i>
                                             <i class="bi bi-star"></i>
                                             <i class="bi bi-star"></i>
-                                            <i class="bi bi-star text-light"></i>
+                                            <i class="bi bi-star text-secondary"></i>
                                         </span>
                                     </div>
                                     <p class="mb-2">
@@ -258,7 +258,7 @@
                                 </div>
                             </div>
                             <div class="card mt-3 position-relative w-100 text-center shadow-sm">
-                                <div class="card-body text-center p-5">
+                                <div class="card-body text-center py-5 px-1">
                                     <img src="/images/company_01.png" alt="Company"
                                         class="img-fluid rounded-circle mb-3">
                                     <p><strong>Website UI Kit</strong></p>
@@ -353,7 +353,7 @@
             </div>
         </div>
     </section>
-    <section class="py-5 px-2">
+    <section class="py-5 px-3 bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -369,11 +369,11 @@
         <div class="container" style="max-width: unset">
             <div class="row justify-content-end g-4 mt-2">
                 <div class="col-md-2 col-6">
-                    <div class="card text-center shadow-sm p-3 mt-5">
+                    <div class="award card text-center shadow-sm p-3 mt-lg-5" style="min-height: 200px">
                         <div class="card-body">
-                            <img src="/images/airbnb.svg" alt="Airbnb" height="32">
+                            <img src="/images/airbnb.svg" alt="Airbnb" height="32" class="my-4">
                             <br>
-                            <span class="text-warning">
+                            <span class="text-warning mb-4">
                                 <i class="bi bi-star"></i>
                                 <i class="bi bi-star"></i>
                                 <i class="bi bi-star"></i>
@@ -387,29 +387,33 @@
                     </div>
                 </div>
                 <div class="col-md-2 col-6">
-                    <div class="card text-center shadow-sm p-3 hover-zoom">
+                    <div class="award card text-center shadow-sm p-3" style="min-height: 200px">
                         <div class="card-body">
-                            <img src="/images/amazon.svg" alt="Amazon" height="32">
-                            <small class="text-muted">They build modern-looking websites easily using Tabs.</small>
-                            <a href="#" class="link stretched-link">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-6">
-                    <div class="card text-center shadow-sm p-3 mt-5">
-                        <div class="card-body">
-                            <img src="/images/slack.svg" alt="Slack" height="32">
-                            <small class="text-muted">They build modern-looking websites easily using Tabs.</small>
-                            <a href="#" class="link stretched-link">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-6">
-                    <div class="card text-center shadow-sm p-3">
-                        <div class="card-body">
-                            <img src="/images/spotify.svg" alt="Spotify" height="32" />
+                            <img src="/images/amazon.svg" alt="Amazon" height="32" class="my-4">
                             <br>
-                            <span class="text-warning">
+                            <small class="text-muted mb-4">They build modern-looking websites easily using Tabs.</small>
+                            <br>
+                            <a href="#" class="link stretched-link">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-6">
+                    <div class="award card text-center shadow-sm p-3 mt-lg-5" style="min-height: 200px">
+                        <div class="card-body">
+                            <img src="/images/slack.svg" alt="Slack" height="32" class="my-4">
+                            <br>
+                            <small class="text-muted mb-4">They build modern-looking websites easily using Tabs.</small>
+                            <br>
+                            <a href="#" class="link stretched-link">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-6">
+                    <div class="award card text-center shadow-sm p-3" style="min-height: 200px">
+                        <div class="card-body">
+                            <img src="/images/spotify.svg" alt="Spotify" height="32" class="my-4"/>
+                            <br>
+                            <span class="text-warning mb-4">
                                 <i class="bi bi-star"></i>
                                 <i class="bi bi-star"></i>
                                 <i class="bi bi-star"></i>
@@ -423,10 +427,12 @@
                     </div>
                 </div>
                 <div class="col-md-2 col-6">
-                    <div class="card text-center shadow-sm p-3 mt-5">
+                    <div class="award card text-center shadow-sm p-3 mt-lg-5" style="min-height: 200px">
                         <div class="card-body">
-                            <img src="/images/paypal.svg" alt="PayPal" height="32">
-                            <small class="text-muted">They build modern-looking websites easily using Tabs.</small>
+                            <img src="/images/paypal.svg" alt="PayPal" height="32" class="my-4">
+                            <br>
+                            <small class="text-muted mb-4">They build modern-looking websites easily using Tabs.</small>
+                            <br>
                             <a href="#" class="link stretched-link">Learn more</a>
                         </div>
                     </div>
@@ -435,26 +441,30 @@
             </div>
         </div>
     </section>
+    <section class="d-flex">
+        <img src="/images/bottom_muted.svg" alt="bottom_muted" class="w-100">
+    </section>
     <section class="py-5 px-2">
         <div class="container">
-            <h3 class="text-center mb-4">Helpful answers</h3>
-            <p class="text-center mb-5">Start building fast, beautiful, and modern-looking websites in no time.</p>
+            <h4 class="text-center mb-2"><strong>Helpful answers</strong></h4>
+            <p class="text-center mb-5 text-secondary">Start building fast, beautiful, and modern-looking websites in no
+                time.</p>
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="accordion  accordion-flush" id="accordionExample">
                         <div class="accordion-item mb-3 border-0">
                             <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button collapsed border rounded-3 shadow-sm" type="button"
+                                <button class="accordion-button collapsed border rounded-3 shadow py-4" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
                                     aria-controls="collapseOne">
                                     <strong>
-                                        <i class="bi bi-file-earmark me-2"></i>
-                                        Which license do I need?
+                                        <i class="bi bi-file-earmark me-2 text-secondary"></i>
+                                        <small class="text-secondary">Which license do I need?</small>
                                     </strong>
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse"
-                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     This is the first item
                                 </div>
@@ -462,17 +472,19 @@
                         </div>
                         <div class="accordion-item mb-3 border-0">
                             <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed border rounded-3 shadow-sm" type="button"
+                                <button class="accordion-button collapsed border rounded-3 shadow py-4" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
                                     aria-controls="collapseTwo">
                                     <strong>
-                                        <i class="bi bi-unlock me-2"></i>
-                                        How do I get access to my database?
+                                        <i class="bi bi-unlock me-2 text-secondary"></i>
+                                        <small class="text-secondary">
+                                            How do I get access to my database?
+                                        </small>
                                     </strong>
                                 </button>
                             </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse"
-                                aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     This is the second item
                                 </div>
@@ -480,17 +492,17 @@
                         </div>
                         <div class="accordion-item mb-3 border-0">
                             <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed border rounded-3 shadow-sm" type="button"
+                                <button class="accordion-button collapsed border rounded-3 shadow py-4" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
                                     aria-controls="collapseThree">
                                     <strong>
-                                        <i class="bi bi-folder2 me-2"></i>
-                                        How do I see previous orders?
+                                        <i class="bi bi-folder2 me-2 text-secondary"></i>
+                                        <small class="text-secondary">How do I see previous orders?</small>
                                     </strong>
                                 </button>
                             </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse"
-                                aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     This is the third item
                                 </div>
@@ -502,17 +514,17 @@
                     <div class="accordion  accordion-flush" id="accordionExample">
                         <div class="accordion-item mb-3 border-0">
                             <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed border rounded-3 shadow-sm" type="button"
+                                <button class="accordion-button collapsed border rounded-3 shadow py-4" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
                                     aria-controls="collapseFour">
                                     <strong>
-                                        <i class="bi bi-file-earmark me-2"></i>
-                                        Which license do I need?
+                                        <i class="bi bi-file-earmark me-2 text-secondary"></i>
+                                        <small class="text-secondary">Which license do I need?</small>
                                     </strong>
                                 </button>
                             </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse"
-                                aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     This is the fourth item
                                 </div>
@@ -520,35 +532,35 @@
                         </div>
                         <div class="accordion-item mb-3 border-0">
                             <h2 class="accordion-header" id="headingFive">
-                                <button class="accordion-button collapsed border rounded-3 shadow-sm" type="button"
+                                <button class="accordion-button collapsed border rounded-3 shadow py-4" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
                                     aria-controls="collapseFive">
                                     <strong>
-                                        <i class="bi bi-unlock me-2"></i>
-                                        How do I get access to my database?
+                                        <i class="bi bi-unlock me-2 text-secondar"></i>
+                                        <small class="text-secondary">How do I get access to my database?</small>
                                     </strong>
                                 </button>
                             </h2>
                             <div id="collapseFive" class="accordion-collapse collapse border-0"
                                 aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                                <div class="accordion-body" >
+                                <div class="accordion-body">
                                     This is the fifth item
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item mb-3 border-0">
                             <h2 class="accordion-header" id="headingSix">
-                                <button class="accordion-button collapsed border rounded-3 shadow-sm" type="button"
+                                <button class="accordion-button collapsed border rounded-3 shadow py-4" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
                                     aria-controls="collapseSix">
                                     <strong>
-                                        <i class="bi bi-folder2 me-2"></i>
-                                        How do I see previous orders?
+                                        <i class="bi bi-folder2 me-2 text-secondar"></i>
+                                        <small class="text-secondary">How do I see previous orders?</small>
                                     </strong>
                                 </button>
                             </h2>
-                            <div id="collapseSix" class="accordion-collapse collapse"
-                                aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     This is the sixth item
                                 </div>
@@ -558,11 +570,11 @@
                 </div>
             </div>
             <div class="row mt-5">
-                <p class="text-center"><strong>I want to start a new project</strong></p>
+                <h5 class="text-center mb-4">I want to start a new project</h5>
             </div>
             <div class="row">
                 <div class="text-center">
-                    <a href="#" class="btn btn-primary btn-lg border-radius-sm text-white px-3">
+                    <a href="#" class="btn btn-primary btn-sm rounded-sm text-white px-4 py-2">
                         <small>
                             Buy now <i class="bi bi-arrow-right ms-2"></i>
                         </small>
@@ -572,74 +584,77 @@
             </div>
         </div>
     </section>
+    <section class="d-flex">
+        <img src="/images/top_dark.svg" alt="top_dark" class="w-100">
+    </section>
     <footer class="bg-dark text-white pt-5 pb-4">
         <div class="container">
-            <div class="row">
+            <div class="row pt-3">
                 <div class="col-lg-6">
                     <h4>Brilliant solutions for your ideas</h4>
-                    <p>Odoo attempts to bring the best development experience to designers and developers by offering
-                        the tools needed for having a quick and solid start in most web projects.</p>
+                    <p class="pb-3" style="font-weight: lighter;">Modern looking websites.</p>
                 </div>
-                <div class="col-lg-6">
-                    <a href="#" class="btn btn-light me-2"><i
-                            class="bi bi-file-break me-2 text-dark"></i>Documentation</a>
-                    <a href="#" class="btn btn-primary">Purchase now</a>
+                <div class="col-lg-6 d-lg-flex justify-content-end gap-3 mb-5">
+                    <a href="#" class="btn btn-sm btn-light me-2 px-4 py-3"><i
+                            class="bi bi-file-break me-2 text-primary"></i>Documentation</a>
+                    <a href="#" class="btn btn-sm btn-primary px-4 py-3 text-white">Purchase now</a>
                 </div>
             </div>
             <hr class="border-light">
-            <div class="row">
-                <div class="col-md-4">
+            <div class="row my-5 justify-content-between">
+                <div class="col-md-3">
                     <img src="/images/odoo-white.svg" alt="Odoo" height="32">
-                    <small class="d-block">Odoo attempts to bring the best development experience to designers and
+                    <br>
+                    <small class="d-block mt-4" style="font-weight: lighter;">Odoo attempts to bring the best development experience to designers and
                         developers by offering the tools needed for having a quick and solid start in most web
                         projects.</small>
-                    <div class="d-flex gap-5 mt-4">
+                    <div class="d-flex gap-5 my-4">
                         <a href="#" class="text-white"><i class="bi bi-dribbble"></i></a>
                         <a href="#" class="text-white"><i class="bi bi-github"></i></a>
                         <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
                         <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
                     </div>
                 </div>
-                <div class="col-md-8">
-                    <div class="row d-flex justify-content-between gap-3">
-                        <div class="col-md-4">
-                            <h5>Account</h5>
+                <div class="col-md-6">
+                    <div class="row d-flex justify-content-between gap-3 mt-4">
+                        <div class="col-md-3 mb-4">
+                            <h5 class="mb-4"><small>Account</small></h5>
                             <ul class="list-unstyled">
-                                <li><a href="#" class="text-white underline-0">Profile</a></li>
-                                <li><a href="#" class="text-white">Settings</a></li>
-                                <li><a href="#" class="text-white">Billing</a></li>
-                                <li><a href="#" class="text-white">Notifications</a></li>
+                                <li><a href="#" class="text-white mb-1" style="text-decoration: none; font-weight: lighter;">Profile</a></li>
+                                <li><a href="#" class="text-white mb-1" style="text-decoration: none; font-weight: lighter;">Settings</a></li>
+                                <li><a href="#" class="text-white mb-1" style="text-decoration: none; font-weight: lighter;">Billing</a></li>
+                                <li><a href="#" class="text-white mb-1" style="text-decoration: none; font-weight: lighter;">Notifications</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-4">
-                            <h5>About</h5>
+                        <div class="col-md-3 mb-4">
+                            <h5 class="mb-4"><small>About</small></h5>
                             <ul class="list-unstyled">
-                                <li><a href="#" class="text-white underline-0">Services</a></li>
-                                <li><a href="#" class="text-white">Pricing</a></li>
-                                <li><a href="#" class="text-white">Contact</a></li>
-                                <li><a href="#" class="text-white">Careers</a></li>
+                                <li><a href="#" class="text-white mb-1" style="text-decoration: none; font-weight: lighter;">Services</a></li>
+                                <li><a href="#" class="text-white mb-1" style="text-decoration: none; font-weight: lighter;">Pricing</a></li>
+                                <li><a href="#" class="text-white mb-1" style="text-decoration: none; font-weight: lighter;">Contact</a></li>
+                                <li><a href="#" class="text-white mb-1" style="text-decoration: none; font-weight: lighter;">Careers</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-4">
-                            <h5>Account</h5>
+                        <div class="col-md-3 mb-4">
+                            <h5 class="mb-4"><small>Account</small></h5>
                             <ul class="list-unstyled">
-                                <li><a href="#" class="text-white underline-0">Community</a></li>
-                                <li><a href="#" class="text-white">Help center</a></li>
-                                <li><a href="#" class="text-white">Support</a></li>
+                                <li><a href="#" class="text-white mb-1" style="text-decoration: none; font-weight: lighter;">Community</a></li>
+                                <li><a href="#" class="text-white mb-1" style="text-decoration: none; font-weight: lighter;">Help center</a></li>
+                                <li><a href="#" class="text-white mb-1" style="text-decoration: none; font-weight: lighter;">Support</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
             <hr class="border-light">
-            <div class="row d-flex justify-content-between">
-                <div class="d-flex w-50">
+            <div class="row d-flex justify-content-between mt-5 mb-2">
+                <div class="d-flex w-50" style="text-decoration: none; font-weight: lighter;">
                     © <strong class="ms-1">Odoo</strong>. All rights reserved
                 </div>
                 <div class="d-flex w-50 justify-content-end align-items-center gap-3">
-                    <a href="#" class="text-white">Terms</a>
-                    <a href="#" class="text-white">Privacy</a>
-                    <a href="#" class="text-white">Cookies</a>
+                    <a href="#" class="text-white" style="text-decoration: none; font-weight: lighter;">Terms</a>
+                    <a href="#" class="text-white" style="text-decoration: none; font-weight: lighter;">Privacy</a>
+                    <a href="#" class="text-white" style="text-decoration: none; font-weight: lighter;">Cookies</a>
                 </div>
             </div>
         </div>

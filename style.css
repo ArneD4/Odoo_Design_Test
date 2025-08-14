@@ -36,7 +36,7 @@
   --bs-info: #0dcaf0;
   --bs-warning: #FDBE3D;
   --bs-danger: #dc3545;
-  --bs-light: #c6cad0;
+  --bs-light: #f8f9fa;
   --bs-dark: #161348;
   --bs-primary-rgb: 3, 138, 255;
   --bs-secondary-rgb: 122, 137, 160;
@@ -44,7 +44,7 @@
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 253, 190, 61;
   --bs-danger-rgb: 220, 53, 69;
-  --bs-light-rgb: 198, 202, 208;
+  --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 22, 19, 72;
   --bs-primary-text-emphasis: rgb(1.2, 55.2, 102);
   --bs-secondary-text-emphasis: rgb(48.8, 54.8, 64);
@@ -107,7 +107,7 @@
   --bs-border-color: #dee2e6;
   --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
   --bs-border-radius: 0.75rem;
-  --bs-border-radius-sm: 0.3rem;
+  --bs-border-radius-sm: 0.25rem;
   --bs-border-radius-lg: 1rem;
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-xxl: 2rem;
@@ -397,7 +397,7 @@ kbd {
   font-size: 0.875em;
   color: var(--bs-body-bg);
   background-color: var(--bs-body-color);
-  border-radius: 0.3rem;
+  border-radius: 0.25rem;
 }
 kbd kbd {
   padding: 0;
@@ -2017,13 +2017,13 @@ progress {
 
 .table-light {
   --bs-table-color: #000;
-  --bs-table-bg: #c6cad0;
-  --bs-table-border-color: rgb(158.4, 161.6, 166.4);
-  --bs-table-striped-bg: rgb(188.1, 191.9, 197.6);
+  --bs-table-bg: #f8f9fa;
+  --bs-table-border-color: rgb(198.4, 199.2, 200);
+  --bs-table-striped-bg: rgb(235.6, 236.55, 237.5);
   --bs-table-striped-color: #000;
-  --bs-table-active-bg: rgb(178.2, 181.8, 187.2);
+  --bs-table-active-bg: rgb(223.2, 224.1, 225);
   --bs-table-active-color: #000;
-  --bs-table-hover-bg: rgb(183.15, 186.85, 192.4);
+  --bs-table-hover-bg: rgb(229.4, 230.325, 231.25);
   --bs-table-hover-color: #000;
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
@@ -3111,19 +3111,19 @@ textarea.form-control-lg {
 
 .btn-light {
   --bs-btn-color: #000;
-  --bs-btn-bg: #c6cad0;
-  --bs-btn-border-color: #c6cad0;
+  --bs-btn-bg: #f8f9fa;
+  --bs-btn-border-color: #f8f9fa;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: rgb(168.3, 171.7, 176.8);
-  --bs-btn-hover-border-color: rgb(158.4, 161.6, 166.4);
-  --bs-btn-focus-shadow-rgb: 168, 172, 177;
+  --bs-btn-hover-bg: rgb(210.8, 211.65, 212.5);
+  --bs-btn-hover-border-color: rgb(198.4, 199.2, 200);
+  --bs-btn-focus-shadow-rgb: 211, 212, 213;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: rgb(158.4, 161.6, 166.4);
-  --bs-btn-active-border-color: rgb(148.5, 151.5, 156);
+  --bs-btn-active-bg: rgb(198.4, 199.2, 200);
+  --bs-btn-active-border-color: rgb(186, 186.75, 187.5);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: #c6cad0;
-  --bs-btn-disabled-border-color: #c6cad0;
+  --bs-btn-disabled-bg: #f8f9fa;
+  --bs-btn-disabled-border-color: #f8f9fa;
 }
 
 .btn-dark {
@@ -3246,19 +3246,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-light {
-  --bs-btn-color: #c6cad0;
-  --bs-btn-border-color: #c6cad0;
+  --bs-btn-color: #f8f9fa;
+  --bs-btn-border-color: #f8f9fa;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #c6cad0;
-  --bs-btn-hover-border-color: #c6cad0;
-  --bs-btn-focus-shadow-rgb: 198, 202, 208;
+  --bs-btn-hover-bg: #f8f9fa;
+  --bs-btn-hover-border-color: #f8f9fa;
+  --bs-btn-focus-shadow-rgb: 248, 249, 250;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #c6cad0;
-  --bs-btn-active-border-color: #c6cad0;
+  --bs-btn-active-bg: #f8f9fa;
+  --bs-btn-active-border-color: #f8f9fa;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #c6cad0;
+  --bs-btn-disabled-color: #f8f9fa;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #c6cad0;
+  --bs-btn-disabled-border-color: #f8f9fa;
   --bs-gradient: none;
 }
 
@@ -6900,8 +6900,8 @@ textarea.form-control-lg {
   text-decoration-color: RGBA(var(--bs-light-rgb), var(--bs-link-underline-opacity, 1)) !important;
 }
 .link-light:hover, .link-light:focus {
-  color: RGBA(209, 213, 217, var(--bs-link-opacity, 1)) !important;
-  text-decoration-color: RGBA(209, 213, 217, var(--bs-link-underline-opacity, 1)) !important;
+  color: RGBA(249, 250, 251, var(--bs-link-opacity, 1)) !important;
+  text-decoration-color: RGBA(249, 250, 251, var(--bs-link-underline-opacity, 1)) !important;
 }
 
 .link-dark {
@@ -11993,4 +11993,13 @@ h3, .h3 {
 
 .container {
   max-width: 1140px;
+}
+
+.award {
+  transition: 0.6s ease-in;
+}
+
+.award:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35) !important;
+  transition: 0.6s ease-out;
 }/*# sourceMappingURL=style.css.map */
