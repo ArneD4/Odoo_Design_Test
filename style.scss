@@ -44,6 +44,12 @@ h3 {
   max-width: 1140px;
 }
 
+hr {
+    border-color: $secondary;
+    border-image-source: radial-gradient(45deg, rgba(255, 0, 0, 0) 89%, #7a89a0, rgba(255, 0, 0, 0) 89%);
+    border-image-slice: 1;
+}
+
 // AWARD HOVER EFFECT
 .award {
   transition: 0.6s ease-in;
