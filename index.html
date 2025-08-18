@@ -22,7 +22,8 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse d-lg-flex justify-content-between" id="navbarNav">
-                <ul class="navbar-nav mb-2 mb-lg-0 gap-4 d-flex justify-content-center mx-auto  text-sm-center text-lg-start">
+                <ul
+                    class="navbar-nav mb-2 mb-lg-0 gap-4 d-flex justify-content-center mx-auto  text-sm-center text-lg-start">
                     <li class="nav-item">
                         <a href="" class="nav-link text-white">Home</a>
                     </li>
@@ -51,8 +52,8 @@
                     <p class="mb-5">Build a beautiful, modern website with <br> flexible components built from scratch.
                     </p>
                     <a href="#" class="btn btn-light mb-5 px-4 py-3">Get started &nbsp; <strong>+</strong></a>
-                    <div class="d-flex flex-row justify-content-center justify-content-lg-start">
-                        <small class="me-4">Trusted by</small>
+                    <div class="d-flex flex-row flex-wrap justify-content-center justify-content-lg-start">
+                        <small class="me-4 mb-3">Trusted by</small>
                         <div class="d-flex gap-4 mb-5">
                             <img src="./images/google-white.svg" alt="Google" height="24">
                             <img src="./images/spotify-white.svg" alt="Spotify" height="24">
@@ -130,9 +131,13 @@
         <div class="container">
             <div class="row row-reverse gap-5" style="padding-top: 6rem;">
                 <div class="col-lg-6 position-relative">
+                    <div class="custom-play-btn position-absolute z-2 end-0 m-3 bg-white px-4 py-2 rounded shadow-sm"
+                        style="top: -5rem;" id="customPlay1">
+                        Play video <i class="bi bi-play"></i>
+                    </div>
                     <video src="" poster="./images/img_01.jpg"
                         class="position-absolute top-0 end-0 z-1 rounded shadow-lg"
-                        style="width: 60%; height: auto; margin-top: -5rem;" controls>
+                        style="width: 60%; height: auto; margin-top: -5rem;">
                     </video>
                     <div class="card shadow-sm border-opacity-50" style="width: 80%;">
                         <div class="card-body">
@@ -199,7 +204,11 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 position-relative">
+                    <div class="custom-play-btn position-absolute z-2 m-3 bg-white px-4 py-2 rounded shadow-sm"
+                        id="customPlay2">
+                        Play video <i class="bi bi-play"></i>
+                    </div>
                     <video src="" poster="./images/img_02.jpg" class="rounded" style="width: 100%; height: auto;"
                         controls></video>
                 </div>
@@ -211,7 +220,7 @@
             <div class="row row-reverse gap-1 justify-content-between">
                 <div class="col-lg-6">
                     <div class="row">
-                        <div class="col-6 mt-5">
+                        <div class="col-sm-6 col-12 mt-5">
                             <div class="card shadow-sm">
                                 <div class="card-body p-0">
                                     <img src="./images/person_03.jpg" alt="Image" class="img-fluid rounded-top">
@@ -225,7 +234,7 @@
                                 </div>
 
                             </div>
-                            <div class="card mt-2 shadow-sm">
+                            <div class="card my-3 shadow-sm">
                                 <div class="card-body">
                                     <div class="d-flex align-items-center">
                                         <div class="badge badge-pill rounded-circle p-3 bg-success me-3"><i
@@ -238,7 +247,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-sm-6 col-12">
                             <div class="card shadow-sm">
                                 <div class="card-body text-center py-5 px-1">
                                     <img src="./images/airbnb.svg" alt="Airbnb" class="mb-4" height="27">
@@ -251,7 +260,7 @@
                                             <i class="bi bi-star text-secondary"></i>
                                         </span>
                                     </div>
-                                    <p class="mb-2">
+                                    <p class="mb-3">
                                         <strong>4.95 out of 5 stars</strong>
                                     </p>
                                     <small class="text-muted">from 23 reviews</small>
@@ -329,7 +338,11 @@
                         </button>
                     </div>
                 </div>
-                <div class="col-lg-7">
+                <div class="col-lg-7 position-relative">
+                    <div class="custom-play-btn position-absolute z-2 m-3 bg-white px-4 py-2 rounded shadow-sm"
+                        id="customPlay2">
+                        Play video <i class="bi bi-play"></i>
+                    </div>
                     <video src="" poster="./images/img_03.jpg" class="rounded" style="width: 100%; height: auto;"
                         controls></video>
                 </div>
@@ -411,7 +424,7 @@
                 <div class="col-xl-2 col-lg-4 col-6">
                     <div class="award card text-center shadow-sm p-3" style="min-height: 200px">
                         <div class="card-body">
-                            <img src="./images/spotify.svg" alt="Spotify" height="32" class="my-4 mw-100"/>
+                            <img src="./images/spotify.svg" alt="Spotify" height="32" class="my-4 mw-100" />
                             <br>
                             <span class="text-warning mb-4">
                                 <i class="bi bi-star"></i>
@@ -605,7 +618,8 @@
                 <div class="col-md-3">
                     <img src="./images/odoo-white.svg" alt="Odoo" height="32">
                     <br>
-                    <small class="d-block mt-4 fw-lighter">Odoo attempts to bring the best development experience to designers and
+                    <small class="d-block mt-4 fw-lighter">Odoo attempts to bring the best development experience to
+                        designers and
                         developers by offering the tools needed for having a quick and solid start in most web
                         projects.</small>
                     <div class="d-flex gap-5 my-4">
@@ -621,15 +635,18 @@
                             <h5 class="mb-4"><small>Account</small></h5>
                             <ul class="list-unstyled">
                                 <li><a href="#" class="text-white mb-2 fw-lighter text-decoration-none">Profile</a></li>
-                                <li><a href="#" class="text-white mb-2 fw-lighter text-decoration-none">Settings</a></li>
+                                <li><a href="#" class="text-white mb-2 fw-lighter text-decoration-none">Settings</a>
+                                </li>
                                 <li><a href="#" class="text-white mb-2 fw-lighter text-decoration-none">Billing</a></li>
-                                <li><a href="#" class="text-white mb-2 fw-lighter text-decoration-none">Notifications</a></li>
+                                <li><a href="#"
+                                        class="text-white mb-2 fw-lighter text-decoration-none">Notifications</a></li>
                             </ul>
                         </div>
                         <div class="col-md-3 mb-4">
                             <h5 class="mb-4"><small>About</small></h5>
                             <ul class="list-unstyled">
-                                <li><a href="#" class="text-white mb-2 fw-lighter text-decoration-none">Services</a></li>
+                                <li><a href="#" class="text-white mb-2 fw-lighter text-decoration-none">Services</a>
+                                </li>
                                 <li><a href="#" class="text-white mb-2 fw-lighter text-decoration-none">Pricing</a></li>
                                 <li><a href="#" class="text-white mb-2 fw-lighter text-decoration-none">Contact</a></li>
                                 <li><a href="#" class="text-white mb-2 fw-lighter text-decoration-none">Careers</a></li>
@@ -638,8 +655,10 @@
                         <div class="col-md-3 mb-4">
                             <h5 class="mb-4"><small>Account</small></h5>
                             <ul class="list-unstyled">
-                                <li><a href="#" class="text-white mb-2 fw-lighter text-decoration-none">Community</a></li>
-                                <li><a href="#" class="text-white mb-2 fw-lighter text-decoration-none">Help center</a></li>
+                                <li><a href="#" class="text-white mb-2 fw-lighter text-decoration-none">Community</a>
+                                </li>
+                                <li><a href="#" class="text-white mb-2 fw-lighter text-decoration-none">Help center</a>
+                                </li>
                                 <li><a href="#" class="text-white mb-2 fw-lighter text-decoration-none">Support</a></li>
                             </ul>
                         </div>

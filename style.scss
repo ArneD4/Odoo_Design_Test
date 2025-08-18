@@ -44,13 +44,43 @@ h3 {
   max-width: 1140px;
 }
 
+// AWARD HOVER EFFECT
 .award {
   transition: 0.6s ease-in;
+  &:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35) !important;
+    transition: 0.6s ease-out;
+  }
 }
 
-.award:hover {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35) !important;
-  transition: 0.6s ease-out;
+// CUSTOM VIDEO BTN
+.custom-play-btn {
+  transition: 0.6s ease-in;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35) !important;
+    transition: 0.6s ease-out;
+  }
+}
+
+// CUSTOM ACCORDION BTN
+.accordion-button::after {
+  background-image: none !important; 
+  content: "+";
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: $secondary;
+  transition: none !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  content: "–"; 
+  transform: rotate(-180deg);
+  margin-right: 10px;
+}
+
+.accordion-button::after {
+  transition: none !important;
 }
 
 @include media-breakpoint-down(xl) {
