@@ -1,10 +1,14 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+.text-muted {
+  color: red !important;
+}
+
 /*!
  * Bootstrap  v5.3.7 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -12001,13 +12005,17 @@ h3, .h3 {
   font-size: 1.65rem;
 }
 
+.fw-regular {
+  font-weight: 600;
+}
+
 .container {
   max-width: 1140px;
 }
 
-hr {
+.hr-gradient {
   border-color: #7a89a0;
-  border-image-source: radial-gradient(45deg, rgba(255, 0, 0, 0) 89%, #7a89a0, rgba(255, 0, 0, 0) 89%);
+  border-image-source: linear-gradient(90deg, rgba(122, 137, 160, 0) 0%, rgb(122, 137, 160) 50%, rgba(122, 137, 160, 0) 100%);
   border-image-slice: 1;
 }
 

@@ -14,7 +14,7 @@
 
 <body>
     <nav class="navbar navbar-dark navbar-expand-lg bg-primary align-items-center p-0">
-        <div class="container d-flex justify-content-between py-4 border-bottom border-white border-opacity-50">
+        <div class="container d-flex justify-content-between py-4 border-bottom border-white border-opacity-25">
             <a href="" class="navbar-brand">
                 <img src="./images/odoo-white.svg" alt="Odoo Logo" height="32">
             </a>
@@ -39,7 +39,7 @@
                 </ul>
                 <div class="d-lg-flex gap-4 justify-content-center justify-content-lg-start">
                     <a href="" class="btn text-white">Sign in</a>
-                    <a href="" class="btn btn-light px-3 py-2"><i class="bi bi-bag me-3"></i> Buy now</a>
+                    <a href="" class="btn btn-sm btn-light px-3 py-2 fw-regular"><i class="bi bi-bag me-2"></i> Buy now</a>
                 </div>
             </div>
         </div>
@@ -48,10 +48,10 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 text-white text-sm-center text-lg-start">
-                    <h1 class="mb-3"><strong>Development <br> done right</strong></h1>
-                    <p class="mb-5">Build a beautiful, modern website with <br> flexible components built from scratch.
+                    <h1 class="mb-5 lh-base w-50"><strong>Development done right</strong></h1>
+                    <p class="mb-5 lh-base w-50">Build a beautiful, modern website with flexible components built from scratch.
                     </p>
-                    <a href="#" class="btn btn-light mb-5 px-4 py-3">Get started &nbsp; <strong>+</strong></a>
+                    <a href="#" class="btn btn-light mb-5 px-4 py-3 fw-regular">Get started &nbsp; <strong>+</strong></a>
                     <div class="d-flex flex-row flex-wrap justify-content-center justify-content-lg-start">
                         <small class="me-4 mb-3">Trusted by</small>
                         <div class="d-flex gap-4 mb-5">
@@ -67,9 +67,9 @@
                         <div class="card-body">
                             <div class="d-flex justify-content-between align-items-center pb-4">
                                 <h5 class="card-title m-0">
-                                    Manage cards
+                                    <small>Manage cards</small>
                                 </h5>
-                                <div class="btn border-dark border-opacity-10 px-3">
+                                <div class="btn btn-sm border-dark border-opacity-10 px-3 fw-regular">
                                     <small>Add new</small>
                                 </div>
                             </div>
@@ -77,7 +77,7 @@
                                 <div class="row-lg-12 d-flex justify-content-between mb-5">
                                     <img src="./images/mastercard.svg" alt="Mastercard" height="27">
                                     <small
-                                        class="badge bg-success px-2 rounded d-flex justify-content-center align-items-center"><strong>Active</strong></small>
+                                        class="badge bg-success px-2 rounded-1 d-flex justify-content-center align-items-center"><strong>Active</strong></small>
                                 </div>
                                 <div class="row">
                                     <small class="fw-lighter">CARD NUMBER</small>
@@ -99,20 +99,20 @@
                             <div class="d-flex mt-4">
                                 <div class="col-8">
                                     <p class="mb-0"><strong>Starbucks</strong></p>
-                                    <small>Pending - San Fransisco, United States</small>
+                                    <small class="text-secondary">Pending - San Fransisco, United States</small>
                                 </div>
                                 <div class="col-4 text-end">
-                                    <p>$5,50 USD</p>
+                                    <p class="fw-regular">$5,50 USD</p>
                                 </div>
                             </div>
                             <hr>
                             <div class="d-flex">
                                 <div class="col-8">
                                     <p class="mb-0"><strong>Nike Sports</strong></p>
-                                    <small>Pending - Lisbon, Portugal</small>
+                                    <small class="text-secondary">Pending - Lisbon, Portugal</small>
                                 </div>
                                 <div class="col-4 text-end">
-                                    <p>$129,00 USD</p>
+                                    <p class="fw-regular">$129,00 USD</p>
                                 </div>
                             </div>
                             <hr>
@@ -131,21 +131,21 @@
         <div class="container">
             <div class="row row-reverse gap-5" style="padding-top: 6rem;">
                 <div class="col-lg-6 position-relative">
-                    <div class="custom-play-btn position-absolute z-2 end-0 m-3 bg-white px-4 py-2 rounded shadow-sm"
+                    <button class="custom-play-btn btn btn-sm position-absolute z-2 end-0 m-3 bg-white px-3 py-2 shadow-sm fw-regular"
                         style="top: -5rem;" id="customPlay1">
                         Play video <i class="bi bi-play"></i>
-                    </div>
+                    </button>
                     <video src="" poster="./images/img_01.jpg"
                         class="position-absolute top-0 end-0 z-1 rounded shadow-lg"
                         style="width: 60%; height: auto; margin-top: -5rem;">
                     </video>
-                    <div class="card shadow-sm border-opacity-50" style="width: 80%;">
+                    <div class="card shadow-sm border-secondary border-opacity-25 p-3" style="width: 80%;">
                         <div class="card-body">
                             <h5 class="card-title mb-4">Awesome Projects</h5>
                             <ul class="list-unstyled list-group-flush">
                                 <li class="mb-5">
                                     <div class="d-flex justify-content-between">
-                                        <p><strong>Create the new logo</strong></p>
+                                        <p class="fw-regular">Create the new logo</p>
                                         <p class="text-secondary">3:50 <i class="bi bi-chevron-right"></i></p>
                                     </div>
                                     <div class="progress-bar bg-light rounded" style="height: 3px;">
@@ -154,7 +154,7 @@
                                 </li>
                                 <li class="mb-5">
                                     <div class="d-flex justify-content-between">
-                                        <p><strong>Set up the color palette</strong></p>
+                                        <p class="fw-regular">Set up the color palette</p>
                                         <p class="text-secondary">4:00 <i class="bi bi-chevron-right"></i></p>
                                     </div>
                                     <div class="progress-bar bg-light rounded" style="height: 3px;">
@@ -163,7 +163,7 @@
                                 </li>
                                 <li class="mb-5">
                                     <div class="d-flex justify-content-between">
-                                        <p><strong>Wireframe and prototype</strong></p>
+                                        <p class="fw-regular">Wireframe and prototype</p>
                                         <p class="text-secondary">6:50 <i class="bi bi-chevron-right"></i></p>
                                     </div>
                                     <div class="progress-bar bg-light rounded" style="height: 3px;">
@@ -176,8 +176,8 @@
                 </div>
                 <div class="col-lg-4 mb-5">
                     <span class="badge px-3 py-2 bg-warning rounded-pill mb-3">Tools</span>
-                    <h2 class="mb-4">We build for designers and developers</h2>
-                    <p>Get components and examples, including tons of variables that will help you grow your business.
+                    <h2 class="text-dark mb-4 fw-regular lh-base">We build for designers and developers</h2>
+                    <p class="text-muted fw-regular lh-lg">Get components and examples, including tons of variables that will help you grow your business.
                     </p>
                 </div>
             </div>
@@ -187,30 +187,30 @@
             <div class="row">
                 <div class="col-lg-6 mb-4">
                     <span class="badge px-3 py-2 bg-success rounded-pill mb-3 mt-5">Features</span>
-                    <h3 class="mb-5">Get components and examples, including tons of variables that will help you grow
+                    <h4 class="text-dark mb-5 lh-lg">Get components and examples, including tons of variables that will help you grow
                         your business.
-                    </h3>
+                    </h4>
                     <ul class="list-unstyled">
                         <li class="d-flex text-success align-items-center">
-                            <div class="check px-2 py-1 rounded me-2 bg-success text-white"><i class="bi bi-check2"></i>
+                            <div class="check px-1 py-0 rounded rounded-1 me-2 bg-success text-white"><i class="bi bi-check2"></i>
                             </div>
-                            <p class="m-0">Perfect for modern startups</p>
+                            <p class="m-0 fw-regular"><small>Perfect for modern startups</small></p>
                         </li>
                         <br>
                         <li class="d-flex text-success align-items-center">
-                            <div class="check px-2 py-1 rounded me-2 bg-success text-white"><i class="bi bi-check2"></i>
+                            <div class="check px-1 py-0  rounded rounded-1 me-2 bg-success text-white"><i class="bi bi-check2"></i>
                             </div>
-                            <p class="m-0">Fully customizable and scalable</p>
+                            <p class="m-0 fw-regular"><small>Fully customizable and scalable</small></p>
                         </li>
                     </ul>
                 </div>
                 <div class="col-lg-6 position-relative">
-                    <div class="custom-play-btn position-absolute z-2 m-3 bg-white px-4 py-2 rounded shadow-sm"
+                    <button class="custom-play-btn btn btn-sm position-absolute z-2 m-3 bg-white px-3 py-2 shadow-sm fw-regular"
                         id="customPlay2">
                         Play video <i class="bi bi-play"></i>
-                    </div>
+                    </button>
                     <video src="" poster="./images/img_02.jpg" class="rounded" style="width: 100%; height: auto;"
-                        controls></video>
+                        ></video>
                 </div>
             </div>
         </div>
@@ -221,7 +221,7 @@
                 <div class="col-lg-6">
                     <div class="row">
                         <div class="col-sm-6 col-12 mt-5">
-                            <div class="card shadow-sm">
+                            <div class="card border-secondary border-opacity-10 shadow-sm">
                                 <div class="card-body p-0">
                                     <img src="./images/person_03.jpg" alt="Image" class="img-fluid rounded-top">
                                     <div class="d-flex align-items-center justify-content-between p-3">
@@ -234,21 +234,22 @@
                                 </div>
 
                             </div>
-                            <div class="card my-3 shadow-sm">
+                            <div class="card border-secondary border-opacity-10 my-3 shadow-sm">
                                 <div class="card-body">
                                     <div class="d-flex align-items-center">
-                                        <div class="badge badge-pill rounded-circle p-3 bg-success me-3"><i
-                                                class="bi bi-check2 h3"></i></div>
+                                        <div class="d-flex align-items-center justify-content-center rounded-circle bg-success me-3" style="width:40px; height:40px;">
+                                            <i class="bi bi-check2 h4 text-white m-0  pt-1"></i>
+                                        </div>
                                         <div class="col">
                                             <p class="mb-1"><strong>300+ components</strong></p>
-                                            <small class="text-muted">Built to be customized</small>
+                                            <small class="text-muted fw-regular">Built to be customized</small>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-6 col-12">
-                            <div class="card shadow-sm">
+                            <div class="card border-secondary border-opacity-10 shadow-sm">
                                 <div class="card-body text-center py-5 px-1">
                                     <img src="./images/airbnb.svg" alt="Airbnb" class="mb-4" height="27">
                                     <div class="mb-4">
@@ -260,13 +261,13 @@
                                             <i class="bi bi-star text-secondary"></i>
                                         </span>
                                     </div>
-                                    <p class="mb-3">
+                                    <p class="mb-2">
                                         <strong>4.95 out of 5 stars</strong>
                                     </p>
-                                    <small class="text-muted">from 23 reviews</small>
+                                    <small class="text-muted fw-regular">from 23 reviews</small>
                                 </div>
                             </div>
-                            <div class="card mt-3 position-relative w-100 text-center shadow-sm">
+                            <div class="card border-secondary border-opacity-10 mt-3 position-relative w-100 text-center shadow-sm">
                                 <div class="card-body text-center py-5 px-1">
                                     <img src="./images/company_01.png" alt="Company"
                                         class="img-fluid rounded-circle mb-3">
@@ -280,7 +281,7 @@
                                         <img src="./images/person_03.jpg" alt="Person_03" height="40" class="border border-2 border-white rounded-circle position-absolute
                                             end-0">
                                     </div>
-                                    <hr class="hr w-50 mx-auto" />
+                                    <hr class="hr hr-gradient w-50 mx-auto" />
                                     <div class="d-flex justify-content-between text-muted"
                                         style="width: 80%; max-width: 130px; margin: auto;">
                                         <button class="btn btn-white"><i class="bi bi-paperclip"></i></button>
@@ -294,9 +295,9 @@
                 </div>
                 <div class="col-lg-5">
                     <span class="badge px-3 py-2 bg-primary rounded-pill mb-3">Technology</span>
-                    <h2 class="mb-4">We use the latest technologies on the market</h2>
-                    <p>Get components and examples, including tons of variables that will help you grow your business.
-                    </p class="mb-3">
+                    <h2 class="text-dark mb-4 fw-regular lh-base">We use the latest technologies on the market</h2>
+                    <p class="text-muted fw-regular lh-lg">Get components and examples, including tons of variables that will help you grow your business.
+                    </p>
                     <a href="#" class="link" style="text-decoration: none; border-bottom: 2px solid;"><strong>See case
                             studies</strong></a>
                 </div>
@@ -308,11 +309,11 @@
             <div class="row">
                 <div class="col-lg-5 mt-5">
                     <span class="badge px-3 py-2 bg-warning rounded-pill mb-3">Easy to install</span>
-                    <h2 class="mb-4">Download, install and run.</h2>
-                    <p class="mb-3">Get components and examples, including tons of variables that will help you grow
+                    <h2 class="text-dark mb-4 lh-base">Download, install and run.</h2>
+                    <p class="text-muted mb-5 lh-lg">Get components and examples, including tons of variables that will help you grow
                         your business.
                     </p>
-                    <div class="d-flex justify-content-between gap-2 mb-4" style="max-width: 375px;">
+                    <div class="d-flex justify-content-between gap-2 mb-4 mt-5" style="max-width: 375px;">
                         <button class="btn btn-dark app-button mb-3 d-flex flex-row align-items-center gap-2 rounded-sm"
                             style="background-color: black;">
 
@@ -339,12 +340,12 @@
                     </div>
                 </div>
                 <div class="col-lg-7 position-relative">
-                    <div class="custom-play-btn position-absolute z-2 m-3 bg-white px-4 py-2 rounded shadow-sm"
+                    <div class="custom-play-btn btn btn-sm position-absolute z-2 m-3 bg-white px-3 py-2 shadow-sm fw-regular"
                         id="customPlay2">
                         Play video <i class="bi bi-play"></i>
                     </div>
                     <video src="" poster="./images/img_03.jpg" class="rounded" style="width: 100%; height: auto;"
-                        controls></video>
+                        ></video>
                 </div>
             </div>
         </div>
@@ -354,12 +355,12 @@
             <div class="row bg-dark text-white p-5 align-items-center"
                 style="border-bottom-left-radius: 50px; border-top-right-radius: 50px;">
                 <div class="col-lg-9">
-                    <h4>Infinite solutions</h4>
+                    <h4 class="fw-regular">Infinite solutions</h4>
                     <p>Intuitive markup, powerful and lightning-fast build tools, <br>
                         everything you need to turn your ideas into incredible products.</p>
                 </div>
                 <div class="col-lg-3">
-                    <a href="#" class="btn btn-primary bg-white text-dark border-0 px-3">Learn more
+                    <a href="#" class="btn btn-primary btn-sm bg-white text-dark border-0 px-3 py-3 fw-regular">Learn more
                         <i class="bi bi-arrow-right ms-2"></i>
                     </a>
                 </div>
@@ -372,7 +373,7 @@
                 <div class="col-lg-6">
                     <span class="badge px-3 py-2 bg-primary rounded-pill mb-3">Awards</span>
                     <p>
-                        <strong>
+                        <strong class="text-dark">
                             Awards for design, creativity, and innovation on the Internet
                         </strong>
                     </p>
@@ -382,7 +383,7 @@
         <div class="container" style="max-width: unset">
             <div class="row justify-content-xl-end g-4 mt-2">
                 <div class="col-xl-2 col-lg-4 col-6">
-                    <div class="award card text-center shadow-sm p-3 mt-xl-5" style="min-height: 200px">
+                    <div class="award card border-secondary border-opacity-10 text-center shadow-sm p-3 mt-xl-5" style="min-height: 200px">
                         <div class="card-body">
                             <img src="./images/airbnb.svg" alt="Airbnb" height="32" class="my-4 mw-100">
                             <br>
@@ -400,7 +401,7 @@
                     </div>
                 </div>
                 <div class="col-xl-2 col-lg-4 col-6">
-                    <div class="award card text-center shadow-sm p-3" style="min-height: 200px">
+                    <div class="award card border-secondary border-opacity-10 text-center shadow-sm p-3" style="min-height: 200px">
                         <div class="card-body">
                             <img src="./images/amazon.svg" alt="Amazon" height="32" class="my-4 mw-100">
                             <br>
@@ -411,7 +412,7 @@
                     </div>
                 </div>
                 <div class="col-xl-2 col-lg-4 col-6">
-                    <div class="award card text-center shadow-sm p-3 mt-xl-5" style="min-height: 200px">
+                    <div class="award card border-secondary border-opacity-10 text-center shadow-sm p-3 mt-xl-5" style="min-height: 200px">
                         <div class="card-body">
                             <img src="./images/slack.svg" alt="Slack" height="32" class="my-4 mw-100">
                             <br>
@@ -422,7 +423,7 @@
                     </div>
                 </div>
                 <div class="col-xl-2 col-lg-4 col-6">
-                    <div class="award card text-center shadow-sm p-3" style="min-height: 200px">
+                    <div class="award card border-secondary border-opacity-10 text-center shadow-sm p-3" style="min-height: 200px">
                         <div class="card-body">
                             <img src="./images/spotify.svg" alt="Spotify" height="32" class="my-4 mw-100" />
                             <br>
@@ -440,7 +441,7 @@
                     </div>
                 </div>
                 <div class="col-xl-2 col-lg-4 col-6">
-                    <div class="award card text-center shadow-sm p-3 mt-xl-5" style="min-height: 200px">
+                    <div class="award card border-secondary border-opacity-10 text-center shadow-sm p-3 mt-xl-5" style="min-height: 200px">
                         <div class="card-body">
                             <img src="./images/paypal.svg" alt="PayPal" height="32" class="my-4 mw-100">
                             <br>
@@ -459,15 +460,15 @@
     </section>
     <section class="py-5 px-2">
         <div class="container">
-            <h4 class="text-center mb-2"><strong>Helpful answers</strong></h4>
-            <p class="text-center mb-5 text-secondary">Start building fast, beautiful, and modern-looking websites in no
+            <h4 class="text-center mb-2 text-dark fw-regular">Helpful answers</h4>
+            <p class="text-center mb-5 text-secondary fw-regular">Start building fast, beautiful, and modern-looking websites in no
                 time.</p>
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="accordion  accordion-flush" id="accordionExample">
                         <div class="accordion-item mb-3 border-0">
                             <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button collapsed border rounded-3 shadow py-4" type="button"
+                                <button class="accordion-button collapsed border-secondary border-opacity-10 rounded-2 shadow py-4" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
                                     aria-controls="collapseOne">
                                     <strong>
@@ -485,7 +486,7 @@
                         </div>
                         <div class="accordion-item mb-3 border-0">
                             <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed border rounded-3 shadow py-4" type="button"
+                                <button class="accordion-button collapsed border-secondary border-opacity-10 rounded-2 shadow py-4" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
                                     aria-controls="collapseTwo">
                                     <strong>
@@ -505,7 +506,7 @@
                         </div>
                         <div class="accordion-item mb-3 border-0">
                             <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed border rounded-3 shadow py-4" type="button"
+                                <button class="accordion-button collapsed border-secondary border-opacity-10 rounded-2 shadow py-4" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
                                     aria-controls="collapseThree">
                                     <strong>
@@ -527,7 +528,7 @@
                     <div class="accordion  accordion-flush" id="accordionExample">
                         <div class="accordion-item mb-3 border-0">
                             <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed border rounded-3 shadow py-4" type="button"
+                                <button class="accordion-button collapsed border-secondary border-opacity-10 rounded-2 shadow py-4" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
                                     aria-controls="collapseFour">
                                     <strong>
@@ -545,7 +546,7 @@
                         </div>
                         <div class="accordion-item mb-3 border-0">
                             <h2 class="accordion-header" id="headingFive">
-                                <button class="accordion-button collapsed border rounded-3 shadow py-4" type="button"
+                                <button class="accordion-button collapsed border-secondary border-opacity-10 rounded-2 shadow py-4" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
                                     aria-controls="collapseFive">
                                     <strong>
@@ -563,7 +564,7 @@
                         </div>
                         <div class="accordion-item mb-3 border-0">
                             <h2 class="accordion-header" id="headingSix">
-                                <button class="accordion-button collapsed border rounded-3 shadow py-4" type="button"
+                                <button class="accordion-button collapsed border-secondary border-opacity-10 rounded-2 shadow py-4" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
                                     aria-controls="collapseSix">
                                     <strong>
@@ -583,7 +584,7 @@
                 </div>
             </div>
             <div class="row mt-5">
-                <h5 class="text-center mb-4">I want to start a new project</h5>
+                <p class="text-center mb-4 fw-regular">I want to start a new project</p>
             </div>
             <div class="row">
                 <div class="text-center">
@@ -608,12 +609,12 @@
                     <p class="pb-3 fw-lighter">Modern looking websites.</p>
                 </div>
                 <div class="col-lg-6 d-lg-flex justify-content-end gap-3 mb-5">
-                    <a href="#" class="btn btn-sm btn-light me-2 px-4 py-3"><i
+                    <a href="#" class="btn btn-sm btn-light me-2 px-4 py-2"><i
                             class="bi bi-file-break me-2 text-primary"></i>Documentation</a>
-                    <a href="#" class="btn btn-sm btn-primary px-4 py-3 text-white">Purchase now</a>
+                    <a href="#" class="btn btn-sm btn-primary px-4 py-2 text-white">Purchase now</a>
                 </div>
             </div>
-            <hr>
+            <hr class="hr-gradient">
             <div class="row my-5 justify-content-between">
                 <div class="col-md-3">
                     <img src="./images/odoo-white.svg" alt="Odoo" height="32">
@@ -665,7 +666,7 @@
                     </div>
                 </div>
             </div>
-            <hr>
+            <hr class="hr-gradient">
             <div class="row d-flex justify-content-between mt-5 mb-2">
                 <div class="d-flex w-50" style="text-decoration: none; font-weight: lighter;">
                     © <strong class="ms-1">Odoo</strong>. All rights reserved

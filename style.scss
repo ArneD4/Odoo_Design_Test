@@ -3,15 +3,21 @@
 // Colors
 $primary: #038aff;
 $secondary: #7a89a0;
-// $light: #c6cad0;
 $dark: #161348;
 $success: #5ccaa7;
 $warning: #fdbe3d;
+
+// Override Bootstrap muted text color
+.text-muted {
+  color: red !important;
+}
+
 
 // Border radius
 $border-radius: 0.75rem;
 $rounded-sm: 0.5rem;
 $border-radius-lg: 1rem;
+
 
 @import "node_modules/bootstrap/scss/bootstrap";
 
@@ -40,13 +46,17 @@ h3 {
   font-size: 1.65rem;
 }
 
+.fw-regular {
+  font-weight: 600;
+}
+
 .container {
   max-width: 1140px;
 }
 
-hr {
+.hr-gradient {
     border-color: $secondary;
-    border-image-source: radial-gradient(45deg, rgba(255, 0, 0, 0) 89%, #7a89a0, rgba(255, 0, 0, 0) 89%);
+    border-image-source: linear-gradient(90deg,rgba(122, 137, 160, 0) 0%, rgba(122, 137, 160, 1) 50%, rgba(122, 137, 160, 0) 100%);
     border-image-slice: 1;
 }
 
